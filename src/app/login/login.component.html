@@ -1,0 +1,14 @@
+<form id="form">
+   <div id="login">
+    <div id="div">
+        <label for="">Email Address</label><br>
+        <input   [(ngModel)]="email" type="email" name="email">
+    </div>
+    <div id="div">
+        <label for="">Password</label><br>
+        <input  [(ngModel)]="password" type="password" name="password"><br>
+    </div >
+    <button type="submit" (click)="logIn()" >Log in</button>
+    <a href="">back</a>
+   </div>
+</form>
